@@ -4,7 +4,6 @@ let map;
 let markersLayer;
 
 async function init() {
-  // Initialize Leaflet Map
   map = L.map('map').setView([25, -40], 2);
   L.tileLayer('https://{s}://{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
@@ -12,11 +11,16 @@ async function init() {
   }).addTo(map);
   markersLayer = L.layerGroup().addTo(map);
 
-  // Load JSON data
-  const response = await fetch('hotels.json');
-  allResorts = await response.json();
+  try {
+    const response = await fetch('hotels.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    allResorts = await response.json();
+  } catch (err) {
+    document.getElementById('resultCount').textContent =
+      'Error loading hotels.json. Run a local server (python -m http.server 8000) or open via GitHub Pages.';
+    return;
+  }
 
-  // Setup Fuse.js fuzzy search
   fuse = new Fuse(allResorts, {
     keys: ['name', 'brand', 'city', 'state', 'country'],
     threshold: 0.35
@@ -25,7 +29,6 @@ async function init() {
   populateFilters();
   render(allResorts);
 
-  // Event Listeners
   document.getElementById('searchInput').addEventListener('input', applyFilters);
   document.getElementById('brandFilter').addEventListener('change', applyFilters);
   document.getElementById('countryFilter').addEventListener('change', applyFilters);
@@ -90,7 +93,6 @@ function render(resorts) {
     const locationText = [resort.city, resort.state, resort.country].filter(Boolean).join(', ');
     const hiltonSearchUrl = `https://hilton.com{encodeURIComponent(resort.name)}`;
 
-    // Build List Card
     const card = document.createElement('div');
     card.className = 'bg-white p-4 rounded-xl border border-slate-200 hover:border-blue-500 shadow-sm transition cursor-pointer';
     card.innerHTML = `
@@ -109,7 +111,6 @@ function render(resorts) {
       </div>
     `;
 
-    // Add Map Marker if coordinates exist
     if (resort.lat && resort.lng) {
       const marker = L.marker([resort.lat, resort.lng])
         .bindPopup(`<strong>${resort.name}</strong><br><span style="font-size:12px;color:#555">${resort.brand}</span><br><a href="${hiltonSearchUrl}" target="_blank">View on Hilton.com</a>`);

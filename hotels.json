@@ -1,8 +1,2981 @@
 [
-  { "name": "Waldorf Astoria Orlando", "brand": "Waldorf Astoria", "city": "Orlando", "state": "Florida", "country": "United States", "lat": 28.3484, "lng": -81.5542 },
-  { "name": "Conrad Orlando", "brand": "Conrad", "city": "Orlando", "state": "Florida", "country": "United States", "lat": 28.3932, "lng": -81.5318 },
-  { "name": "Waldorf Astoria Las Vegas", "brand": "Waldorf Astoria", "city": "Las Vegas", "state": "Nevada", "country": "United States", "lat": 36.1066, "lng": -115.1743 },
-  { "name": "Hilton Grand Vacations Club Elara Center Strip Las Vegas", "brand": "Hilton Grand Vacations", "city": "Las Vegas", "state": "Nevada", "country": "United States", "lat": 36.1088, "lng": -115.1695 },
-  { "name": "Hilton Grand Vacations Club Ocean Oak Resort Hilton Head", "brand": "Hilton Grand Vacations", "city": "Hilton Head Island", "state": "South Carolina", "country": "United States", "lat": 32.1558, "lng": -80.7429 },
-  { "name": "The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton", "brand": "Tapestry Collection", "city": "Myrtle Beach", "state": "South Carolina", "country": "United States", "lat": 33.6534, "lng": -78.9228 }
+  {
+    "name": "Grand Wailea, A Waldorf Astoria Resort",
+    "brand": "Waldorf Astoria",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Rome Cavalieri, A Waldorf Astoria Hotel",
+    "brand": "Waldorf Astoria",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Waldorf Astoria Costa Rica Punta Cacique",
+    "brand": "Waldorf Astoria",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Waldorf Astoria Dubai Palm Jumeirah",
+    "brand": "Waldorf Astoria",
+    "city": "دبي",
+    "state": "دبي",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 25.1346112,
+    "lng": 55.1504049
+  },
+  {
+    "name": "Waldorf Astoria Las Vegas",
+    "brand": "Waldorf Astoria",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "country": "United States",
+    "lat": 36.1062074,
+    "lng": -115.1743562
+  },
+  {
+    "name": "Waldorf Astoria Los Cabos Pedregal",
+    "brand": "Waldorf Astoria",
+    "city": "Cabo San Lucas",
+    "state": "Baja California Sur",
+    "country": "México",
+    "lat": 22.8749934,
+    "lng": -109.9116568
+  },
+  {
+    "name": "Waldorf Astoria Lusail, Doha",
+    "brand": "Waldorf Astoria",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Waldorf Astoria Maldives Ithaafushi",
+    "brand": "Waldorf Astoria",
+    "city": "",
+    "state": "މާލެ އަތޮޅު",
+    "country": "ދިވެހިރާއްޖެ",
+    "lat": 4.0144201,
+    "lng": 73.3825681
+  },
+  {
+    "name": "Waldorf Astoria Monarch Beach",
+    "brand": "Waldorf Astoria",
+    "city": "Dana Point",
+    "state": "California",
+    "country": "United States",
+    "lat": 33.4821246,
+    "lng": -117.7158148
+  },
+  {
+    "name": "Waldorf Astoria Orlando",
+    "brand": "Waldorf Astoria",
+    "city": "Orlando",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 28.3530804,
+    "lng": -81.5335647
+  },
+  {
+    "name": "Waldorf Astoria Park City",
+    "brand": "Waldorf Astoria",
+    "city": "Park City",
+    "state": "Utah",
+    "country": "United States",
+    "lat": 40.6906722,
+    "lng": -111.5495499
+  },
+  {
+    "name": "Waldorf Astoria Ras Al Khaimah",
+    "brand": "Waldorf Astoria",
+    "city": "",
+    "state": "رأس الخيمة",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 25.6853702,
+    "lng": 55.7727186
+  },
+  {
+    "name": "Waldorf Astoria Riveria Maya",
+    "brand": "Waldorf Astoria",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Waldorf Astoria Seychelles Platte Island",
+    "brand": "Waldorf Astoria",
+    "city": "Platte",
+    "state": "Zil Elwannyen Sesel",
+    "country": "Sesel",
+    "lat": -5.8635418,
+    "lng": 55.3832725
+  },
+  {
+    "name": "Waldorf Astoria Versailles - Trianon Palace",
+    "brand": "Waldorf Astoria",
+    "city": "Versailles",
+    "state": "Île-de-France",
+    "country": "France",
+    "lat": 48.8114317,
+    "lng": 2.1210867
+  },
+  {
+    "name": "Conrad Abu Dhabi Etihad Towers",
+    "brand": "Conrad",
+    "city": "أبو ظبي",
+    "state": "أبو ظبي",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 24.4583909,
+    "lng": 54.322254
+  },
+  {
+    "name": "Conrad Algarve",
+    "brand": "Conrad",
+    "city": "Almancil",
+    "state": "",
+    "country": "Portugal",
+    "lat": 37.0631547,
+    "lng": -8.0289683
+  },
+  {
+    "name": "Conrad Bali",
+    "brand": "Conrad",
+    "city": "Kuta Selatan",
+    "state": "Bali",
+    "country": "Indonesia",
+    "lat": -8.7806054,
+    "lng": 115.225233
+  },
+  {
+    "name": "Conrad Bora Bora Nui",
+    "brand": "Conrad",
+    "city": "Bora-Bora",
+    "state": "Polynésie Française",
+    "country": "France",
+    "lat": -16.5288887,
+    "lng": -151.767373
+  },
+  {
+    "name": "Conrad Chia Laguna Sardinia",
+    "brand": "Conrad",
+    "city": "Domus De Maria",
+    "state": "Sardigna/Sardegna",
+    "country": "Italia",
+    "lat": 38.8973558,
+    "lng": 8.8696216
+  },
+  {
+    "name": "Conrad Fort Lauderdale Beach",
+    "brand": "Conrad",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 26.1308181,
+    "lng": -80.1040988
+  },
+  {
+    "name": "Conrad Hangzhou Tonglu",
+    "brand": "Conrad",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Conrad Jiuzhaigou",
+    "brand": "Conrad",
+    "city": "上四寨",
+    "state": "四川省",
+    "country": "中国",
+    "lat": 33.3066648,
+    "lng": 103.8145673
+  },
+  {
+    "name": "Conrad Koh Samui",
+    "brand": "Conrad",
+    "city": "อำเภอเกาะสมุย",
+    "state": "",
+    "country": "ประเทศไทย",
+    "lat": 9.4191996,
+    "lng": 99.9296341
+  },
+  {
+    "name": "Conrad Las Vegas at Resorts World",
+    "brand": "Conrad",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "country": "United States",
+    "lat": 36.1344816,
+    "lng": -115.1656573
+  },
+  {
+    "name": "Conrad Maldives Rangali Island",
+    "brand": "Conrad",
+    "city": "",
+    "state": "އަރިއަތޮޅު ދެކުނުބުރި",
+    "country": "ދިވެހިރާއްޖެ",
+    "lat": 3.6180832,
+    "lng": 72.723362
+  },
+  {
+    "name": "Conrad Orlando",
+    "brand": "Conrad",
+    "city": "Orlando",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 28.4093432,
+    "lng": -81.5269461
+  },
+  {
+    "name": "Conrad Punta de Mita",
+    "brand": "Conrad",
+    "city": "Corral del Risco",
+    "state": "Nayarit",
+    "country": "México",
+    "lat": 20.7928425,
+    "lng": -105.4881477
+  },
+  {
+    "name": "Conrad Rabat Arzana",
+    "brand": "Conrad",
+    "city": "Harhoura هرهورة",
+    "state": "Rabat-Salé-Kénitra ⵔⴱⴰⵟ-ⵙⵍⴰ-ⵇⵏⵉⵟⵔⴰ الرباط-سلا-القنيطرة",
+    "country": "Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+    "lat": 33.9002963,
+    "lng": -6.9984318
+  },
+  {
+    "name": "Conrad Tulum Riviera Maya",
+    "brand": "Conrad",
+    "city": "Tulum",
+    "state": "Quintana Roo",
+    "country": "México",
+    "lat": 20.3582784,
+    "lng": -87.3375665
+  },
+  {
+    "name": "Arizona Biltmore, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "country": "United States",
+    "lat": 33.5236231,
+    "lng": -112.0236891
+  },
+  {
+    "name": "Beach Village at The Del, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Crockfords Las Vegas, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Imperial Hotel Gold Coast",
+    "brand": "LXR Hotels & Resorts",
+    "city": "Gold Coast",
+    "state": "Queensland",
+    "country": "Australia",
+    "lat": -27.9670631,
+    "lng": 153.4257437
+  },
+  {
+    "name": "Ka La'i Waikiki Beach, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Katara Hills Doha, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Mango House Seychelles, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Maysan Doha, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "ROKU KYOTO, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Shore House at The Del, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Susona Bodrum, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Umana Bali, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Zemi Beach House, LXR Hotels & Resorts",
+    "brand": "LXR Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Signia Hilton Diplomat Beach Resort",
+    "brand": "Signia by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Signia Hilton La Cantera Resort & Spa",
+    "brand": "Signia by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Signia Hilton Orlando Bonnet Creek",
+    "brand": "Signia by Hilton",
+    "city": "Orange County",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 28.3557259,
+    "lng": -81.5348416
+  },
+  {
+    "name": "Aulus Chania Resort, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Aulus Lindos Rhodes Resort, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Baia di Chia Resort Sardinia, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Baker's Cay Resort Key Largo, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Boeira Garden Hotel Porto Gaia, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Botanika Osa Peninsula, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Boulders Resort & Spa Scottsdale, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Casa Mani Resort Napa Valley, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Casa Marina Key West, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "Key West",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 24.5475484,
+    "lng": -81.7910826
+  },
+  {
+    "name": "Cloudland at McLemore Resort Lookout Mountain, Curio",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Domes Aulus Elounda Resort, Curio by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Faro Blanco Resort & Yacht Club Marathon, Curio by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Gale South Beach, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Grand Hotel des Sablettes Plage, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hale Hokuala Kauai, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Harbor Club St. Lucia, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Higueron Hotel Malaga, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "Fuengirola",
+    "state": "Andalucía",
+    "country": "España",
+    "lat": 36.5800831,
+    "lng": -4.5954309
+  },
+  {
+    "name": "Hotel Alpenrock Breckenridge, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hotel del Coronado, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hotel Maren Fort Lauderdale Beach, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Il Picciolo Etna Golf Resort & Spa, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Indura Beach & Golf Resort Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Isla Brown Corinthia Resort & Spa, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Keight Hotel Opatija, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Koi Resort Saint Kitts, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "La Festa Phu Quoc, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "La Quinta Resort & Club, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Le Hameau des Pesquiers Ecolodge, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Mahogany Bay Resort & Beach Club, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Mangias Santa Teresa Sardinia, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Mangrove Beach Corendon Curacao All-Inclusive Resort, Curio",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Numo Ierapetra Beach Resort Crete, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "SAii Lagoon Maldives, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Sea Breeze Santorini Beach Resort, Curio Collection",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Semeli Coast Mykonos, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Shu Hua Hotel Tianmu Mountain, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Skaneateles Fields Resort & Spa, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Sulia House Porto Rotondo, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Sunseeker Resort Florida Gulf Coast, Curio by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Sunsuites Villas at Sunseeker Resort, Curio by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Club Cala San Miguel Hotel Ibiza, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Hiatus Clearwater Beach, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Reach Key West, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Rif at Mangrove Beach All-Inclusive, Curio by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Royal Senses Resort Crete, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Scottsdale Resort and Spa, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Singer Oceanfront Resort, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The WB Abu Dhabi, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Woodlands® Resort, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Virgin Hotels Las Vegas, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Waterstone Resort & Marina Boca Raton, Curio",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Zachari Dunes on Mandalay Beach, Curio Collection by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Zemi Miches Punta Cana All-Inclusive Resort, Curio by Hilton",
+    "brand": "Curio Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Delfins Beach Resort Bonaire, Tapestry Collection by Hilton",
+    "brand": "Tapestry Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Fuwairit Kite Beach, Tapestry Collection by Hilton",
+    "brand": "Tapestry Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton",
+    "brand": "Tapestry Collection",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Beach House Fort Lauderdale, a Hilton Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Cape Rey Carlsbad Beach, a Hilton Resort and Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Caribe Hilton",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "San Juan",
+    "state": "Puerto Rico",
+    "country": "United States",
+    "lat": 18.4632284,
+    "lng": -66.0855246
+  },
+  {
+    "name": "El Conquistador Tucson, A Hilton Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Abu Dhabi Yas Island",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "أبو ظبي",
+    "state": "أبو ظبي",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 24.4593259,
+    "lng": 54.6016718
+  },
+  {
+    "name": "Hilton Alexandria Corniche",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "الإسكندرية",
+    "state": "الإسكندرية",
+    "country": "مصر",
+    "lat": 31.2616287,
+    "lng": 29.9837414
+  },
+  {
+    "name": "Hilton Alexandria King's Ranch",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "برج العرب الجديدة",
+    "state": "الإسكندرية",
+    "country": "مصر",
+    "lat": 30.9823544,
+    "lng": 29.6927761
+  },
+  {
+    "name": "Hilton Anatole",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Dallas",
+    "state": "Texas",
+    "country": "United States",
+    "lat": 32.7998954,
+    "lng": -96.8290505
+  },
+  {
+    "name": "Hilton Aruba Caribbean Resort & Casino",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Bali Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Kuta Selatan",
+    "state": "Bali",
+    "country": "Indonesia",
+    "lat": -8.8256603,
+    "lng": 115.2184087
+  },
+  {
+    "name": "Hilton Barbados Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Beachfront Resort and Spa Hilton Head Island",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Bentley Miami/South Beach",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Miami Beach",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 25.769683,
+    "lng": -80.1323668
+  },
+  {
+    "name": "Hilton Burau Bay Langkawi Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "Kedah",
+    "country": "Malaysia",
+    "lat": 6.3660122,
+    "lng": 99.6706384
+  },
+  {
+    "name": "Hilton Cabana Miami Beach Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Cancun Mar Caribe All-Inclusive Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Cancún",
+    "state": "Quintana Roo",
+    "country": "México",
+    "lat": 21.0717298,
+    "lng": -86.7768739
+  },
+  {
+    "name": "Hilton Cancun, an All-Inclusive Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Cartagena Hotel",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Chania Old Town Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Χανιά",
+    "state": "Περιφέρεια Κρήτης",
+    "country": "Ελλάς",
+    "lat": 35.5175112,
+    "lng": 24.0121249
+  },
+  {
+    "name": "Hilton Chicago/Oak Brook Hills Resort & Conference Center",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Oak Brook",
+    "state": "Illinois",
+    "country": "United States",
+    "lat": 41.8213547,
+    "lng": -87.9722664
+  },
+  {
+    "name": "Hilton Clark Sun Valley Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Mabalacat",
+    "state": "Pampanga",
+    "country": "Philippines",
+    "lat": 15.1784121,
+    "lng": 120.5091618
+  },
+  {
+    "name": "Hilton Clearwater Beach Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Dalaman Sarigerme Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Dali Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "大理市",
+    "state": "云南省",
+    "country": "中国",
+    "lat": 25.647983,
+    "lng": 100.1800354
+  },
+  {
+    "name": "Hilton Dalian Golden Pebble Beach Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "金州区",
+    "state": "辽宁省",
+    "country": "中国",
+    "lat": 39.0734678,
+    "lng": 121.9931693
+  },
+  {
+    "name": "Hilton Dallas/Rockwall Lakefront",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Rockwall",
+    "state": "Texas",
+    "country": "United States",
+    "lat": 32.888315,
+    "lng": -96.4809788
+  },
+  {
+    "name": "Hilton Daytona Beach Oceanfront Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Daytona Beach",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 29.2296885,
+    "lng": -81.0090352
+  },
+  {
+    "name": "Hilton Dead Sea Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Shoonah Janoobiyah Sub-District",
+    "state": "البلقاء",
+    "country": "الأردن",
+    "lat": 31.7223282,
+    "lng": 35.5885916
+  },
+  {
+    "name": "Hilton Doha",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "الدوحة",
+    "state": "الدوحة",
+    "country": "قطر",
+    "lat": 25.3261656,
+    "lng": 51.5404948
+  },
+  {
+    "name": "Hilton Doha The Pearl",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "الدوحة",
+    "state": "الدوحة",
+    "country": "قطر",
+    "lat": 25.3748621,
+    "lng": 51.5398641
+  },
+  {
+    "name": "Hilton Dubai Jumeirah",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "دبي",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 25.0787477,
+    "lng": 55.1341077
+  },
+  {
+    "name": "Hilton Dubai Palm Jumeirah",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "دبي",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 25.1055436,
+    "lng": 55.147101
+  },
+  {
+    "name": "Hilton Dubai The Walk",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "دبي",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 25.0781097,
+    "lng": 55.1349929
+  },
+  {
+    "name": "Hilton Fiji Beach Resort and Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Nadi",
+    "state": "Western",
+    "country": "Viti",
+    "lat": -17.7663943,
+    "lng": 177.3822645
+  },
+  {
+    "name": "Hilton Fort Lauderdale Marina",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 26.1019812,
+    "lng": -80.1201144
+  },
+  {
+    "name": "Hilton Frankfurt Gravenbruch",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Galveston Island Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Galveston",
+    "state": "Texas",
+    "country": "United States",
+    "lat": 29.2706595,
+    "lng": -94.8209774
+  },
+  {
+    "name": "Hilton Goa Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Marra",
+    "state": "Goa",
+    "country": "India",
+    "lat": 15.5201373,
+    "lng": 73.7952488
+  },
+  {
+    "name": "Hilton Guam Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Tamuning",
+    "state": "Guam",
+    "country": "United States",
+    "lat": 13.5059035,
+    "lng": 144.7858046
+  },
+  {
+    "name": "Hilton Gyeongju",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "경주시",
+    "state": "",
+    "country": "대한민국",
+    "lat": 35.8400511,
+    "lng": 129.2857005
+  },
+  {
+    "name": "Hilton Hainan Ocean Flower Island",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Hangzhou Qiandao Lake Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Hawaiian Village Waikiki Beach Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Hotel Tahiti",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Hua Hin Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "เทศบาลนครหัวหิน",
+    "state": "",
+    "country": "ประเทศไทย",
+    "lat": 12.5706732,
+    "lng": 99.9611759
+  },
+  {
+    "name": "Hilton Huizhou Longmen Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "惠州市",
+    "state": "广东省",
+    "country": "中国",
+    "lat": 23.5838474,
+    "lng": 114.00196
+  },
+  {
+    "name": "Hilton Hurghada Plaza",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "الغردقة",
+    "state": "البحر الأحمر",
+    "country": "مصر",
+    "lat": 27.2580507,
+    "lng": 33.8308358
+  },
+  {
+    "name": "Hilton La Jolla Torrey Pines",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "San Diego",
+    "state": "California",
+    "country": "United States",
+    "lat": 32.9017609,
+    "lng": -117.2438284
+  },
+  {
+    "name": "Hilton Lake Las Vegas Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Henderson",
+    "state": "Nevada",
+    "country": "United States",
+    "lat": 36.1023019,
+    "lng": -114.9319308
+  },
+  {
+    "name": "Hilton Los Cabos Beach & Golf Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Luxor Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "الكرنك الجديدة",
+    "state": "الأقصر",
+    "country": "مصر",
+    "lat": 25.730308,
+    "lng": 32.6561413
+  },
+  {
+    "name": "Hilton Maldives Amingiri Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "މާލެ އަތޮޅު",
+    "country": "ދިވެހިރާއްޖެ",
+    "lat": 4.250032,
+    "lng": 73.3666135
+  },
+  {
+    "name": "Hilton Mallorca Galatzo",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Calvià",
+    "state": "Illes Balears",
+    "country": "España",
+    "lat": 39.5283499,
+    "lng": 2.4724797
+  },
+  {
+    "name": "Hilton Malta",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "San Ġiljan",
+    "state": "",
+    "country": "Malta",
+    "lat": 35.9222764,
+    "lng": 14.4936112
+  },
+  {
+    "name": "Hilton Marco Island Beach Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Marsa Alam Nubian Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "البحر الأحمر",
+    "country": "مصر",
+    "lat": 25.3451598,
+    "lng": 34.735488
+  },
+  {
+    "name": "Hilton Mauritius Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Flic en Flac VCA",
+    "state": "Black River",
+    "country": "Mauritius / Maurice",
+    "lat": -20.308395,
+    "lng": 57.3670879
+  },
+  {
+    "name": "Hilton Moorea Lagoon Resort and Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Myrtle Beach Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Myrtle Beach",
+    "state": "South Carolina",
+    "country": "United States",
+    "lat": 33.7689994,
+    "lng": -78.7747069
+  },
+  {
+    "name": "Hilton Nanjing Niushoushan",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Ningbo Dongqian Lake",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "鄞州区",
+    "state": "浙江省",
+    "country": "中国",
+    "lat": 29.7897511,
+    "lng": 121.6463035
+  },
+  {
+    "name": "Hilton Niseko Village",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "ニセコ町",
+    "state": "",
+    "country": "日本",
+    "lat": 42.8465164,
+    "lng": 140.6848118
+  },
+  {
+    "name": "Hilton Ocean City Oceanfront Suites",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Odawara Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "小田原市",
+    "state": "",
+    "country": "日本",
+    "lat": 35.205975,
+    "lng": 139.131036
+  },
+  {
+    "name": "Hilton Okinawa Chatan Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "北谷町",
+    "state": "",
+    "country": "日本",
+    "lat": 26.3186691,
+    "lng": 127.7548503
+  },
+  {
+    "name": "Hilton Okinawa Miyako Island Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "宮古島市",
+    "state": "",
+    "country": "日本",
+    "lat": 24.8009971,
+    "lng": 125.2596227
+  },
+  {
+    "name": "Hilton Okinawa Sesoko Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "本部町",
+    "state": "",
+    "country": "日本",
+    "lat": 26.6499028,
+    "lng": 127.85867
+  },
+  {
+    "name": "Hilton Orlando",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Orlando",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 28.4248326,
+    "lng": -81.4580117
+  },
+  {
+    "name": "Hilton Orlando Buena Vista Palace Disney Springs Area",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Orange County",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 28.3770269,
+    "lng": -81.5145709
+  },
+  {
+    "name": "Hilton Orlando Lake Buena Vista - Disney Springs Area",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Orange County",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 28.3722186,
+    "lng": -81.510842
+  },
+  {
+    "name": "Hilton Palm Springs",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Palm Springs",
+    "state": "California",
+    "country": "United States",
+    "lat": 33.823938,
+    "lng": -116.5432028
+  },
+  {
+    "name": "Hilton Pattaya",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "เมืองพัทยา",
+    "state": "",
+    "country": "ประเทศไทย",
+    "lat": 12.9349995,
+    "lng": 100.8829753
+  },
+  {
+    "name": "Hilton Pensacola Beach",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Escambia County",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 30.3327811,
+    "lng": -87.1370966
+  },
+  {
+    "name": "Hilton Phoenix Resort at the Peak",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Phoenix Tapatio Cliffs Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Ponce Golf & Casino Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Ponce",
+    "state": "Puerto Rico",
+    "country": "United States",
+    "lat": 17.9709439,
+    "lng": -66.6023913
+  },
+  {
+    "name": "Hilton Pyramids Golf",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "السادس من أكتوبر",
+    "state": "الجيزة",
+    "country": "مصر",
+    "lat": 29.963,
+    "lng": 31.0443997
+  },
+  {
+    "name": "Hilton Quang Hanh Onsen Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Thành phố Quảng Ninh",
+    "state": "",
+    "country": "Việt Nam",
+    "lat": 20.9826245,
+    "lng": 107.2062897
+  },
+  {
+    "name": "Hilton Queenstown Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Queenstown",
+    "state": "Otago",
+    "country": "New Zealand / Aotearoa",
+    "lat": -45.0285697,
+    "lng": 168.7275745
+  },
+  {
+    "name": "Hilton Rijeka Costabella Beach Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Grad Rijeka",
+    "state": "",
+    "country": "Hrvatska",
+    "lat": 45.3469502,
+    "lng": 14.350057
+  },
+  {
+    "name": "Hilton Salalah Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "ولاية صلالة",
+    "state": "محافظة ظفار",
+    "country": "عمان",
+    "lat": 16.9812774,
+    "lng": 54.0152603
+  },
+  {
+    "name": "Hilton Salwa Beach Resort & Villas",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "الريان",
+    "country": "قطر",
+    "lat": 24.8516434,
+    "lng": 50.85765
+  },
+  {
+    "name": "Hilton San Diego/Del Mar",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Del Mar",
+    "state": "California",
+    "country": "United States",
+    "lat": 32.9783841,
+    "lng": -117.2553126
+  },
+  {
+    "name": "Hilton Sandestin Beach Golf Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Miramar Beach",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 30.369913,
+    "lng": -86.3275598
+  },
+  {
+    "name": "Hilton Sanqingshan Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Santa Barbara Beachfront Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Santa Barbara",
+    "state": "California",
+    "country": "United States",
+    "lat": 34.4170619,
+    "lng": -119.6757378
+  },
+  {
+    "name": "Hilton Santa Fe Buffalo Thunder",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Santa Fe County",
+    "state": "New Mexico",
+    "country": "United States",
+    "lat": 35.8595972,
+    "lng": -105.993379
+  },
+  {
+    "name": "Hilton Santa Marta",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Perímetro Urbano Santa Marta",
+    "state": "Magdalena",
+    "country": "Colombia",
+    "lat": 11.1506643,
+    "lng": -74.2260459
+  },
+  {
+    "name": "Hilton Sanya Yalong Bay Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Scottsdale Resort & Villas",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Scottsdale",
+    "state": "Arizona",
+    "country": "United States",
+    "lat": 33.5308059,
+    "lng": -111.9242456
+  },
+  {
+    "name": "Hilton Sedona Resort at Bell Rock",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Sedona",
+    "state": "Arizona",
+    "country": "United States",
+    "lat": 34.7746894,
+    "lng": -111.766691
+  },
+  {
+    "name": "Hilton Seychelles Northolme Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Sorrento Palace",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Sorrento",
+    "state": "Campania",
+    "country": "Italia",
+    "lat": 40.6208932,
+    "lng": 14.3723274
+  },
+  {
+    "name": "Hilton Swinoujscie Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Świnoujście",
+    "state": "województwo zachodniopomorskie",
+    "country": "Polska",
+    "lat": 53.9201692,
+    "lng": 14.2602069
+  },
+  {
+    "name": "Hilton Taghazout Bay Beach Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Taghazout ⵜⴰⵖⴰⵣⵓⵜ تغازوت",
+    "state": "Souss-Massa ⵙⵓⵙⵙ-ⵎⴰⵙⵙⴰ سوس-ماسة",
+    "country": "Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+    "lat": 30.5241527,
+    "lng": -9.6891344
+  },
+  {
+    "name": "Hilton Tangier Al Houara Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Tanger طنجة",
+    "state": "Tanger-Tétouan-Al Hoceïma ⵟⴰⵏⵊ-ⵟⵉⵜⴰⵡⵉⵏ-ⵍⵃⵓⵙⵉⵎⴰ طنجة تطوان الحسيمة",
+    "country": "Maroc ⵍⵎⵖⵔⵉⴱ المغرب",
+    "lat": 35.6673322,
+    "lng": -5.9657735
+  },
+  {
+    "name": "Hilton Tokyo Bay",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "浦安市",
+    "state": "",
+    "country": "日本",
+    "lat": 35.6271803,
+    "lng": 139.8736971
+  },
+  {
+    "name": "Hilton Tulum Riviera Maya All-Inclusive Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Tulum",
+    "state": "Quintana Roo",
+    "country": "México",
+    "lat": 20.3532087,
+    "lng": -87.3366009
+  },
+  {
+    "name": "Hilton Vallarta Riviera All-Inclusive Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "El Nogalito",
+    "state": "Jalisco",
+    "country": "México",
+    "lat": 20.5692925,
+    "lng": -105.250535
+  },
+  {
+    "name": "Hilton Vilamoura As Cascatas Golf Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Quarteira",
+    "state": "",
+    "country": "Portugal",
+    "lat": 37.0936043,
+    "lng": -8.110519
+  },
+  {
+    "name": "Hilton Virginia Beach Oceanfront",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Virginia Beach",
+    "state": "Virginia",
+    "country": "United States",
+    "lat": 36.858832,
+    "lng": -75.9776247
+  },
+  {
+    "name": "Hilton Waikiki Beach",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "East Honolulu",
+    "state": "Hawaii",
+    "country": "United States",
+    "lat": 21.2752487,
+    "lng": -157.8219642
+  },
+  {
+    "name": "Hilton Waikoloa Village",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Waikoloa",
+    "state": "Hawaii",
+    "country": "United States",
+    "lat": 19.9248257,
+    "lng": -155.8866736
+  },
+  {
+    "name": "Hilton Whistler Resort & Spa",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Yala Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Palatupana",
+    "state": "Southern Province",
+    "country": "Sri Lanka",
+    "lat": 6.2560165,
+    "lng": 81.4012132
+  },
+  {
+    "name": "Hilton Yuxi Fuxian Lake",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "INSPIRE Entertainment Resort, A Hilton Partner Hotel",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Las Vegas Hilton at Resorts World",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "country": "United States",
+    "lat": 36.135162,
+    "lng": -115.1666672
+  },
+  {
+    "name": "Surfers Paradise Hilton",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Gold Coast",
+    "state": "Queensland",
+    "country": "Australia",
+    "lat": -28.001082,
+    "lng": 153.4292341
+  },
+  {
+    "name": "The Condado Plaza Hotel",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "Boulder City",
+    "state": "Nevada",
+    "country": "United States",
+    "lat": 35.9783748,
+    "lng": -114.8358507
+  },
+  {
+    "name": "The Inverness Denver, a Hilton Golf & Spa Resort",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Lodge at Gulf State Park, a Hilton Hotel",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "The Waterfront Beach Resort, a Hilton Hotel",
+    "brand": "Hilton Hotels & Resorts",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Club Elara Las Vegas",
+    "brand": "Hilton Grand Vacations",
+    "city": "Paradise",
+    "state": "Nevada",
+    "country": "United States",
+    "lat": 36.1087248,
+    "lng": -115.1682175
+  },
+  {
+    "name": "Hilton Club The Beach Resort Sesoko",
+    "brand": "Hilton Grand Vacations",
+    "city": "本部町",
+    "state": "",
+    "country": "日本",
+    "lat": 26.6514136,
+    "lng": 127.8611265
+  },
+  {
+    "name": "Hilton Grand Vacations Club Anderson Ocean Myrtle Beach",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club at Hilton Hawaiian Village",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Blue Mountain Canada",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Elara Center Strip Las Vegas",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Flamingo Las Vegas",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Grand Waikikian Honolulu",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Hokulani Waikiki Honolulu",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club in Sandestin Golf & Beach Resort",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Kings' Land Waikoloa",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Kohala Suites Waikoloa",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club La Pacifica Los Cabos",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Las Palmeras Orlando",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club MarBrisa Carlsbad",
+    "brand": "Hilton Grand Vacations",
+    "city": "Carlsbad",
+    "state": "California",
+    "country": "United States",
+    "lat": 33.1300711,
+    "lng": -117.3091207
+  },
+  {
+    "name": "Hilton Grand Vacations Club Maui Bay Villas",
+    "brand": "Hilton Grand Vacations",
+    "city": "Kihei",
+    "state": "Hawaii",
+    "country": "United States",
+    "lat": 20.7681305,
+    "lng": -156.4571744
+  },
+  {
+    "name": "Hilton Grand Vacations Club Ocean 22 Myrtle Beach",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Ocean Enclave Myrtle Beach",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Ocean Oak Resort Hilton Head",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Ocean Tower Waikoloa Village",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club on the Las Vegas Strip",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Paradise Las Vegas",
+    "brand": "Hilton Grand Vacations",
+    "city": "Paradise",
+    "state": "Nevada",
+    "country": "United States",
+    "lat": 36.1087248,
+    "lng": -115.1682175
+  },
+  {
+    "name": "Hilton Grand Vacations Club Parc Soleil Orlando",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club SeaWorld® Orlando",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Sunrise Lodge Park City",
+    "brand": "Hilton Grand Vacations",
+    "city": "Park City",
+    "state": "Utah",
+    "country": "United States",
+    "lat": 40.6825786,
+    "lng": -111.5549774
+  },
+  {
+    "name": "Hilton Grand Vacations Club The Crane Barbados",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club The Grand Islander Waikiki Honolulu",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Tuscany Village Orlando",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Valdoro Mountain Lodge Breckenridge",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Grand Vacations Club Whistler",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Aqua Sol Orlando West",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Bayside Resort Panama City Beach",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Cabo Azul Los Cabos",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Cancun Resort Las Vegas",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Cypress Pointe Orlando",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Daytona Beach Regency",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Eilan Resort & Spa San Antonio",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Flamingo Beach St. Maarten",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Grand Beach Orlando",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Greensprings Williamsburg",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Ka'anapali Beach Maui",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Lake Tahoe Resort South",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Los Abrigados Resort & Spa Sedona",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Mystic Dunes Orlando",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Ocean Beach Club Virginia Beach",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Oceanaire Virginia Beach",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Palazzo Catalani & Soriano",
+    "brand": "Hilton Grand Vacations",
+    "city": "Soriano nel Cimino",
+    "state": "Lazio",
+    "country": "Italia",
+    "lat": 42.4178109,
+    "lng": 12.2326079
+  },
+  {
+    "name": "Hilton Vacation Club Palm Canyon Palm Springs",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Polynesian Isles Kissimmee",
+    "brand": "Hilton Grand Vacations",
+    "city": "Kissimmee",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 28.3384261,
+    "lng": -81.4951125
+  },
+  {
+    "name": "Hilton Vacation Club Rancho Manana Phoenix/Cave Creek",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Ridge on Sedona",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Riviera Beach & Shores",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Royal Palm St. Maarten",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Scottsdale Links Resort",
+    "brand": "Hilton Grand Vacations",
+    "city": "Scottsdale",
+    "state": "Arizona",
+    "country": "United States",
+    "lat": 33.6390469,
+    "lng": -111.8976196
+  },
+  {
+    "name": "Hilton Vacation Club Scottsdale Villa Mirage",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club Sedona Summit",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club The Cove on Ormond Beach",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club The Fountains Orlando",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club The Historic Powhatan Williamsburg",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hilton Vacation Club The Modern Honolulu",
+    "brand": "Hilton Grand Vacations",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Bahia Mar Fort Lauderdale Beach - a DoubleTree by Hilton",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree Beach Resort by Hilton Tampa Bay - North Redington Beach",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree by Hilton Alana - Waikiki Beach",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree by Hilton Antalya-Kemer All-Inclusive Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "Kemer",
+    "state": "",
+    "country": "Türkiye",
+    "lat": 36.6110338,
+    "lng": 30.5589041
+  },
+  {
+    "name": "DoubleTree by Hilton Bodrum Isil Club All-Inclusive Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "Bodrum",
+    "state": "",
+    "country": "Türkiye",
+    "lat": 37.0857678,
+    "lng": 27.4770506
+  },
+  {
+    "name": "DoubleTree by Hilton Damai Laut Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "Lumut",
+    "state": "Perak",
+    "country": "Malaysia",
+    "lat": 4.2597479,
+    "lng": 100.5915697
+  },
+  {
+    "name": "DoubleTree by Hilton Dubai - Jumeirah Beach",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "دبي",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 25.0725043,
+    "lng": 55.1279647
+  },
+  {
+    "name": "DoubleTree by Hilton Goa - Arpora - Baga",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree by Hilton Goa Panaji",
+    "brand": "DoubleTree by Hilton",
+    "city": "Panaji",
+    "state": "Goa",
+    "country": "India",
+    "lat": 15.496803,
+    "lng": 73.8838682
+  },
+  {
+    "name": "DoubleTree by Hilton Golf Resort Palm Springs",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree by Hilton Islantilla Beach Golf Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "Lepe",
+    "state": "Andalucía",
+    "country": "España",
+    "lat": 37.2155365,
+    "lng": -7.2305726
+  },
+  {
+    "name": "DoubleTree by Hilton La Torre Golf & Spa Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "Torre Pacheco",
+    "state": "Región de Murcia",
+    "country": "España",
+    "lat": 37.8239308,
+    "lng": -1.0011337
+  },
+  {
+    "name": "DoubleTree by Hilton Lagoa Azores",
+    "brand": "DoubleTree by Hilton",
+    "city": "Lagoa",
+    "state": "",
+    "country": "Portugal",
+    "lat": 37.7493634,
+    "lng": -25.5810324
+  },
+  {
+    "name": "DoubleTree by Hilton Malta",
+    "brand": "DoubleTree by Hilton",
+    "city": "San Pawl il-Baħar",
+    "state": "",
+    "country": "Malta",
+    "lat": 35.9544255,
+    "lng": 14.4182566
+  },
+  {
+    "name": "DoubleTree by Hilton Mazatlan",
+    "brand": "DoubleTree by Hilton",
+    "city": "Mazatlán",
+    "state": "Sinaloa",
+    "country": "México",
+    "lat": 23.2550443,
+    "lng": -106.4586585
+  },
+  {
+    "name": "DoubleTree by Hilton Myrtle Beach",
+    "brand": "DoubleTree by Hilton",
+    "city": "Myrtle Beach",
+    "state": "South Carolina",
+    "country": "United States",
+    "lat": 33.6566696,
+    "lng": -78.9199085
+  },
+  {
+    "name": "DoubleTree by Hilton Noumea Ilot Maitre Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "Nouméa",
+    "state": "",
+    "country": "France",
+    "lat": -22.333556,
+    "lng": 166.4101182
+  },
+  {
+    "name": "DoubleTree by Hilton Ocean Point Resort & Spa – North Miami",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree by Hilton Okinawa Chatan Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "北谷町",
+    "state": "",
+    "country": "日本",
+    "lat": 26.3175411,
+    "lng": 127.7538988
+  },
+  {
+    "name": "DoubleTree by Hilton Orlando at SeaWorld",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree by Hilton Park City - The Yarrow",
+    "brand": "DoubleTree by Hilton",
+    "city": "Park City",
+    "state": "Utah",
+    "country": "United States",
+    "lat": 40.6601299,
+    "lng": -111.5078641
+  },
+  {
+    "name": "DoubleTree by Hilton Phuket Banthai Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "ตำบลป่าตอง",
+    "state": "",
+    "country": "ประเทศไทย",
+    "lat": 7.8906707,
+    "lng": 98.2950077
+  },
+  {
+    "name": "DoubleTree by Hilton Quebec Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree by Hilton Resort & Spa Marjan Island",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "رأس الخيمة",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 25.6693293,
+    "lng": 55.7441924
+  },
+  {
+    "name": "DoubleTree by Hilton San Juan",
+    "brand": "DoubleTree by Hilton",
+    "city": "San Juan",
+    "state": "Puerto Rico",
+    "country": "United States",
+    "lat": 18.4509688,
+    "lng": -66.0647376
+  },
+  {
+    "name": "DoubleTree by Hilton Seychelles - Allamanda Resort & Spa",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree by Hilton Sharm El Sheikh - Sharks Bay Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "شرم الشيخ",
+    "state": "جنوب سيناء",
+    "country": "مصر",
+    "lat": 27.9649061,
+    "lng": 34.4003964
+  },
+  {
+    "name": "DoubleTree by Hilton Shanwei",
+    "brand": "DoubleTree by Hilton",
+    "city": "城区",
+    "state": "广东省",
+    "country": "中国",
+    "lat": 22.7949299,
+    "lng": 115.2915546
+  },
+  {
+    "name": "DoubleTree by Hilton Weerawila Rajawarna Resort",
+    "brand": "DoubleTree by Hilton",
+    "city": "Weerawila",
+    "state": "Southern Province",
+    "country": "Sri Lanka",
+    "lat": 6.2820727,
+    "lng": 81.2323789
+  },
+  {
+    "name": "DoubleTree Fallsview Resort & Spa by Hilton - Niagara Falls",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree Resort by Hilton Fiji - Sonaisali Island",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree Resort by Hilton Grand Key - Key West",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree Resort by Hilton Lancaster",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "DoubleTree Resort by Hilton Paradise Valley - Scottsdale",
+    "brand": "DoubleTree by Hilton",
+    "city": "Paradise Valley",
+    "state": "Arizona",
+    "country": "United States",
+    "lat": 33.5147802,
+    "lng": -111.9248679
+  },
+  {
+    "name": "DoubleTree Resort by Hilton Penang",
+    "brand": "DoubleTree by Hilton",
+    "city": "George Town",
+    "state": "Pulau Pinang",
+    "country": "Malaysia",
+    "lat": 5.4776658,
+    "lng": 100.2690826
+  },
+  {
+    "name": "DoubleTree Resort Hollywood Beach",
+    "brand": "DoubleTree by Hilton",
+    "city": "Hollywood",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 25.9874271,
+    "lng": -80.1200859
+  },
+  {
+    "name": "DoubleTree Suites by Hilton Orlando - Disney Springs™ Area",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Grand Naniloa Hotel Hilo - a DoubleTree by Hilton",
+    "brand": "DoubleTree by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Highline Vail - a DoubleTree by Hilton",
+    "brand": "DoubleTree by Hilton",
+    "city": "Vail",
+    "state": "Colorado",
+    "country": "United States",
+    "lat": 39.6299721,
+    "lng": -106.4200945
+  },
+  {
+    "name": "Embassy Suites by Hilton Aruba Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "Bubali",
+    "state": "",
+    "country": "Aruba",
+    "lat": 12.5617165,
+    "lng": -70.0520986
+  },
+  {
+    "name": "Embassy Suites by Hilton Charlotte-Concord-Golf Resort & Spa",
+    "brand": "Embassy Suites by Hilton",
+    "city": "Concord",
+    "state": "North Carolina",
+    "country": "United States",
+    "lat": 35.3653238,
+    "lng": -80.701456
+  },
+  {
+    "name": "Embassy Suites by Hilton Deerfield Beach Resort & Spa",
+    "brand": "Embassy Suites by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Embassy Suites by Hilton Dorado del Mar Beach Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "Dorado",
+    "state": "Puerto Rico",
+    "country": "United States",
+    "lat": 18.4771801,
+    "lng": -66.2735958
+  },
+  {
+    "name": "Embassy Suites by Hilton Greenville Golf Resort & Conf Ctr",
+    "brand": "Embassy Suites by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Embassy Suites by Hilton Gulf Shores Beach Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "Gulf Shores",
+    "state": "Alabama",
+    "country": "United States",
+    "lat": 30.2487269,
+    "lng": -87.6909295
+  },
+  {
+    "name": "Embassy Suites by Hilton Myrtle Beach Oceanfront Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "Myrtle Beach",
+    "state": "South Carolina",
+    "country": "United States",
+    "lat": 33.7676942,
+    "lng": -78.7780105
+  },
+  {
+    "name": "Embassy Suites by Hilton Orlando Lake Buena Vista Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "Orlando",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 28.3906236,
+    "lng": -81.4945908
+  },
+  {
+    "name": "Embassy Suites by Hilton Orlando Sunset Walk",
+    "brand": "Embassy Suites by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Embassy Suites by Hilton Panama City Beach Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "Panama City Beach",
+    "state": "Florida",
+    "country": "United States",
+    "lat": 30.2155761,
+    "lng": -85.8748356
+  },
+  {
+    "name": "Embassy Suites by Hilton Scottsdale Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "Scottsdale",
+    "state": "Arizona",
+    "country": "United States",
+    "lat": 33.5100652,
+    "lng": -111.9256431
+  },
+  {
+    "name": "Embassy Suites by Hilton Virginia Beach Oceanfront Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Embassy Suites by Hilton Waikiki Beach Walk",
+    "brand": "Embassy Suites by Hilton",
+    "city": "East Honolulu",
+    "state": "Hawaii",
+    "country": "United States",
+    "lat": 21.2790937,
+    "lng": -157.8316409
+  },
+  {
+    "name": "Embassy Suites St Augustine Beach Oceanfront Resort",
+    "brand": "Embassy Suites by Hilton",
+    "city": "",
+    "state": "",
+    "country": "",
+    "lat": null,
+    "lng": null
+  },
+  {
+    "name": "Hampton by Hilton Grand Cayman Seven Mile Beach",
+    "brand": "Hampton by Hilton",
+    "city": "George Town",
+    "state": "",
+    "country": "Cayman Islands",
+    "lat": 19.3170542,
+    "lng": -81.3836127
+  },
+  {
+    "name": "Hampton by Hilton Marjan Island",
+    "brand": "Hampton by Hilton",
+    "city": "",
+    "state": "رأس الخيمة",
+    "country": "الإمارات العربية المتحدة",
+    "lat": 25.6779508,
+    "lng": 55.7403092
+  },
+  {
+    "name": "Homewood Suites by Hilton Mont-Tremblant Resort",
+    "brand": "Homewood Suites by Hilton",
+    "city": "Mont-Tremblant",
+    "state": "Québec",
+    "country": "Canada",
+    "lat": 46.2137659,
+    "lng": -74.585235
+  }
 ]
