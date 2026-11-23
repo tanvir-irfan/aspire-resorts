@@ -5,10 +5,12 @@ let markersLayer;
 
 async function init() {
   map = L.map('map').setView([25, -40], 2);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
-    maxZoom: 18
+  const tileUrl = ('https:' + '//') + 'tile.openstreetmap.org/{z}/{x}/{y}.png';
+  L.tileLayer(tileUrl, {
+    attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+    maxZoom: 19
   }).addTo(map);
+
   markersLayer = L.layerGroup().addTo(map);
 
   try {
