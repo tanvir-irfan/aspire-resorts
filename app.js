@@ -1,10 +1,10 @@
-let allResorts = [];
+let allResorts = new Array();
 let fuse;
 let map;
 let markersLayer;
 
 async function init() {
-  map = L.map('map').setView([25, -40], 2);
+  map = L.map('map').setView(new Array(25, -40), 2);
   L.tileLayer('https://{s}://{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
     maxZoom: 18
@@ -13,16 +13,17 @@ async function init() {
 
   try {
     const response = await fetch('hotels.json');
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    if (!response.ok) throw new Error('HTTP ' + response.status);
     allResorts = await response.json();
   } catch (err) {
     document.getElementById('resultCount').textContent =
-      'Error loading hotels.json. Run a local server (python -m http.server 8000) or open via GitHub Pages.';
+      'Error loading hotels.json. Make sure hotels.json is in the repository root.';
+    console.error(err);
     return;
   }
 
   fuse = new Fuse(allResorts, {
-    keys: ['name', 'brand', 'city', 'state', 'country'],
+    keys: new Array('name', 'brand', 'city', 'state', 'country'),
     threshold: 0.35
   });
 
@@ -37,13 +38,13 @@ async function init() {
     document.getElementById('brandFilter').value = 'ALL';
     document.getElementById('countryFilter').value = 'ALL';
     render(allResorts);
-    map.setView([25, -40], 2);
+    map.setView(new Array(25, -40), 2);
   });
 }
 
 function populateFilters() {
-  const brands = [...new Set(allResorts.map(r => r.brand))].sort();
-  const countries = [...new Set(allResorts.map(r => r.country).filter(Boolean))].sort();
+  const brands = Array.from(new Set(allResorts.map(r => r.brand).filter(Boolean))).sort();
+  const countries = Array.from(new Set(allResorts.map(r => r.country).filter(Boolean))).sort();
 
   const brandSelect = document.getElementById('brandFilter');
   brands.forEach(b => {
@@ -67,7 +68,7 @@ function applyFilters() {
   const brand = document.getElementById('brandFilter').value;
   const country = document.getElementById('countryFilter').value;
 
-  let filtered = query ? fuse.search(query).map(res => res.item) : [...allResorts];
+  let filtered = query ? fuse.search(query).map(res => res.item) : allResorts.slice();
 
   if (brand !== 'ALL') {
     filtered = filtered.filter(r => r.brand === brand);
@@ -87,11 +88,11 @@ function render(resorts) {
   listEl.innerHTML = '';
   markersLayer.clearLayers();
 
-  const bounds = [];
+  const bounds = new Array();
 
   resorts.forEach(resort => {
-    const locationText = [resort.city, resort.state, resort.country].filter(Boolean).join(', ');
-    const hiltonSearchUrl = `https://hilton.com{encodeURIComponent(resort.name)}`;
+    const locationText = new Array(resort.city, resort.state, resort.country).filter(Boolean).join(', ');
+    const hiltonSearchUrl = 'https://hilton.com' + encodeURIComponent(resort.name);
 
     const card = document.createElement('div');
     card.className = 'bg-white p-4 rounded-xl border border-slate-200 hover:border-blue-500 shadow-sm transition cursor-pointer';
@@ -112,13 +113,13 @@ function render(resorts) {
     `;
 
     if (resort.lat && resort.lng) {
-      const marker = L.marker([resort.lat, resort.lng])
+      const marker = L.marker(new Array(resort.lat, resort.lng))
         .bindPopup(`<strong>${resort.name}</strong><br><span style="font-size:12px;color:#555">${resort.brand}</span><br><a href="${hiltonSearchUrl}" target="_blank">View on Hilton.com</a>`);
       markersLayer.addLayer(marker);
-      bounds.push([resort.lat, resort.lng]);
+      bounds.push(new Array(resort.lat, resort.lng));
 
       card.addEventListener('click', () => {
-        map.flyTo([resort.lat, resort.lng], 13, { duration: 1 });
+        map.flyTo(new Array(resort.lat, resort.lng), 13, { duration: 1 });
         marker.openPopup();
       });
     }
@@ -127,7 +128,7 @@ function render(resorts) {
   });
 
   if (bounds.length > 0 && resorts.length < allResorts.length) {
-    map.fitBounds(bounds, { padding:, maxZoom: 12 });
+    map.fitBounds(bounds, { padding: new Array(30, 30), maxZoom: 12 });
   }
 }
 
