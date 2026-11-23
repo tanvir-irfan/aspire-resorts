@@ -1,11 +1,11 @@
-let allResorts = new Array();
+let allResorts = [];
 let fuse;
 let map;
 let markersLayer;
 
 async function init() {
-  map = L.map('map').setView(new Array(25, -40), 2);
-  L.tileLayer('https://{s}://{z}/{x}/{y}{r}.png', {
+  map = L.map('map').setView([25, -40], 2);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
     maxZoom: 18
   }).addTo(map);
@@ -23,7 +23,7 @@ async function init() {
   }
 
   fuse = new Fuse(allResorts, {
-    keys: new Array('name', 'brand', 'city', 'state', 'country'),
+    keys: ['name', 'brand', 'city', 'state', 'country'],
     threshold: 0.35
   });
 
@@ -38,7 +38,7 @@ async function init() {
     document.getElementById('brandFilter').value = 'ALL';
     document.getElementById('countryFilter').value = 'ALL';
     render(allResorts);
-    map.setView(new Array(25, -40), 2);
+    map.setView([25, -40], 2);
   });
 }
 
@@ -88,11 +88,11 @@ function render(resorts) {
   listEl.innerHTML = '';
   markersLayer.clearLayers();
 
-  const bounds = new Array();
+  const bounds = [];
 
   resorts.forEach(resort => {
-    const locationText = new Array(resort.city, resort.state, resort.country).filter(Boolean).join(', ');
-    const hiltonSearchUrl = 'https://hilton.com' + encodeURIComponent(resort.name);
+    const locationText = [resort.city, resort.state, resort.country].filter(Boolean).join(', ');
+    const hiltonSearchUrl = 'https://www.hilton.com/en/search/?query=' + encodeURIComponent(resort.name);
 
     const card = document.createElement('div');
     card.className = 'bg-white p-4 rounded-xl border border-slate-200 hover:border-blue-500 shadow-sm transition cursor-pointer';
@@ -113,13 +113,13 @@ function render(resorts) {
     `;
 
     if (resort.lat && resort.lng) {
-      const marker = L.marker(new Array(resort.lat, resort.lng))
+      const marker = L.marker([resort.lat, resort.lng])
         .bindPopup(`<strong>${resort.name}</strong><br><span style="font-size:12px;color:#555">${resort.brand}</span><br><a href="${hiltonSearchUrl}" target="_blank">View on Hilton.com</a>`);
       markersLayer.addLayer(marker);
-      bounds.push(new Array(resort.lat, resort.lng));
+      bounds.push([resort.lat, resort.lng]);
 
       card.addEventListener('click', () => {
-        map.flyTo(new Array(resort.lat, resort.lng), 13, { duration: 1 });
+        map.flyTo([resort.lat, resort.lng], 13, { duration: 1 });
         marker.openPopup();
       });
     }
@@ -128,7 +128,7 @@ function render(resorts) {
   });
 
   if (bounds.length > 0 && resorts.length < allResorts.length) {
-    map.fitBounds(bounds, { padding: new Array(30, 30), maxZoom: 12 });
+    map.fitBounds(bounds, { padding: [30, 30], maxZoom: 12 });
   }
 }
 
