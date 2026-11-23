@@ -1,0 +1,8 @@
+[
+  { "name": "Waldorf Astoria Orlando", "brand": "Waldorf Astoria", "city": "Orlando", "state": "Florida", "country": "United States", "lat": 28.3484, "lng": -81.5542 },
+  { "name": "Conrad Orlando", "brand": "Conrad", "city": "Orlando", "state": "Florida", "country": "United States", "lat": 28.3932, "lng": -81.5318 },
+  { "name": "Waldorf Astoria Las Vegas", "brand": "Waldorf Astoria", "city": "Las Vegas", "state": "Nevada", "country": "United States", "lat": 36.1066, "lng": -115.1743 },
+  { "name": "Hilton Grand Vacations Club Elara Center Strip Las Vegas", "brand": "Hilton Grand Vacations", "city": "Las Vegas", "state": "Nevada", "country": "United States", "lat": 36.1088, "lng": -115.1695 },
+  { "name": "Hilton Grand Vacations Club Ocean Oak Resort Hilton Head", "brand": "Hilton Grand Vacations", "city": "Hilton Head Island", "state": "South Carolina", "country": "United States", "lat": 32.1558, "lng": -80.7429 },
+  { "name": "The Ellie Beach Resort Myrtle Beach, Tapestry by Hilton", "brand": "Tapestry Collection", "city": "Myrtle Beach", "state": "South Carolina", "country": "United States", "lat": 33.6534, "lng": -78.9228 }
+]
