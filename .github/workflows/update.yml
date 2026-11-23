@@ -1,0 +1,39 @@
+name: Update Hilton Aspire Resorts
+
+on:
+  schedule:
+    # Runs automatically every Sunday at 06:00 UTC
+    - cron: '0 6 * * 0'
+  # Allows you to trigger a manual run anytime from the GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-hotels:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install beautifulsoup4 requests
+
+      - name: Scrape and geocode updated resort list
+        run: |
+          python scripts/update_resorts.py
+
+      - name: Commit and push if hotels.json changed
+        run: |
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          git add hotels.json
+          git diff --staged --quiet || (git commit -m "chore: update eligible Hilton Aspire resorts" && git push)
