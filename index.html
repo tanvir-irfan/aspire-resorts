@@ -63,5 +63,19 @@
   </main>
 
   <script src="app.js"></script>
+
+  <footer class="max-w-7xl mx-auto px-4 py-6 text-center">
+    <div id="hits-badge" class="inline-block"></div>
+  </footer>
+
+  <script>
+    (function() {
+      const p = 'https:' + '//';
+      const img = document.createElement('img');
+      img.alt = 'Page Views';
+      img.src = p + 'hits.sh/tanvir-irfan.github.io/aspire-resorts.svg?label=Views&color=1e3a8a&labelColor=0f172a';
+      document.getElementById('hits-badge').appendChild(img);
+    })();
+  </script>
 </body>
 </html>
